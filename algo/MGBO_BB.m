@@ -1,5 +1,5 @@
 function [Xk, outs] = MGBO_BB(Xk, ffun, gfun, penfun, opts, varargin)
-%[Xnew,iter,objf] = MGBO_BB(Xk,retr,pars,OPTIONS,A,B,lambda)
+%[Xnew, outs] = MGBO_BB(Xk,retr,pars,OPTIONS,A,B,lambda)
 
 if ~isfield(opts, 'gtol');      opts.gtol = 1e-3; end
 if ~isfield(opts, 'ftol');      opts.ftol = 1e-6; end
