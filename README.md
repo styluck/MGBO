@@ -1,6 +1,6 @@
 This is the experiment code file for the paper:
 
-A relaxation method for binary orthogonal optimization problems with its applications
+A relaxation method for binary orthogonal optimization problems based on manifold gradient method and its applications
 
 # [https://arxiv.org/abs/2308.10506]
 
